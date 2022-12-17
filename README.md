@@ -1,6 +1,6 @@
 # multidet
 
-This repository provides the multidet model described in the paper and a simple example.
+This repository provides the multidet model described in the paper and a simple demo.
 
 Paper: 
 
