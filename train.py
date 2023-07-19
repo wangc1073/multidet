@@ -10,7 +10,7 @@ import os
 # You need to customize the ReadData function here
 from readData import getDataforTrainVal
 
-# GPU？
+# GPU?
 os.environ["CUDA_VISIBLE_DEVICES"]="0"
 
 _x_data, _y_data = getDataforTrainVal(input_size=24*3,output_size=24)
@@ -54,7 +54,7 @@ for epoch in range(totolepoch):
         end_time =  datetime.datetime.now()
 
         lasttime = (end_time-start_time)*(train_loaderlen-i)+(end_time-start_time)*train_loaderlen*(totolepoch-epoch-1)
-        print(" Time remaining: ",lasttime," epoch: %4d in %4d, batch: %5d  loss: %.4f  loss1: %.4f  loss2: %.4f  loss3: %.4f \n" %( epoch + 1, totolepoch, (i+1), loss.item(), loss1.item(), loss2.item(), loss3.item()))
+        print(" eta: ",lasttime," epoch: %4d in %4d, batch: %5d  loss: %.4f  loss1: %.4f  loss2: %.4f  loss3: %.4f \n" %( epoch + 1, totolepoch, (i+1), loss.item(), loss1.item(), loss2.item(), loss3.item()))
 
 torch.save(net, 'MultiDet.pt') 
 print('Finished Training')
