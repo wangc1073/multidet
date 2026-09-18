@@ -1,7 +1,7 @@
 This repository provides an implementation of the multidet model proposed in the following paper.
 
 **Paper:**
-*A Transformer-Based Method of Multienergy Load Forecasting in Integrated Energy System*
+*A Transformer-Based Method of Multienergy Load Forecasting in Integrated Energy System*, 
 IEEE Transactions on Smart Grid, Vol. 13, No. 4, July 2022
 DOI: 10.1109/TSG.2022.3166600
 Paper link: https://ieeexplore.ieee.org/document/9756020
