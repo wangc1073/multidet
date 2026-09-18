@@ -1,4 +1,4 @@
-This repository provides an implementation of the multidet model proposed in the following paper.
+This repository provides an implementation of the multidet model.
 
 **Paper:**
 *A Transformer-Based Method of Multienergy Load Forecasting in Integrated Energy System*, 
