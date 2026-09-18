@@ -13,7 +13,7 @@ The multi-energy load dataset used in the paper can be downloaded from: https://
 If you find this repository or our work useful for your research, please consider citing the following paper:
 
 ```bibtex
-@article{wang2022transformer,
+@article{wang2022multidet,
   author={Wang, Chen and Wang, Ying and Ding, Zhetong and Zheng, Tao and Hu, Jiangyi and Zhang, Kaifeng},
   journal={IEEE Transactions on Smart Grid}, 
   title={A Transformer-Based Method of Multienergy Load Forecasting in Integrated Energy System}, 
