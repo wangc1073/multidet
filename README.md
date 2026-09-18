@@ -6,11 +6,7 @@ C. Wang, Y. Wang, Z. Ding, T. Zheng, J. Hu and K. Zhang, "A Transformer-Based Me
 
 Please note that the `ReadData` function is provided as an interface and should be customized according to your own data format and preprocessing pipeline.
 
-The multi-energy load dataset used in the paper can be downloaded from:
-
-https://cm.asu.edu/
-
-After downloading the dataset, please preprocess the data accordingly and modify the `ReadData` function before running the demo.
+The multi-energy load dataset used in the paper can be downloaded from: https://cm.asu.edu/
 
 ## Citation
 
