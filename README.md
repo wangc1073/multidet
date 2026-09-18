@@ -1,4 +1,5 @@
-**Paper:**
+## Paper
+
 C. Wang, Y. Wang, Z. Ding, T. Zheng, J. Hu and K. Zhang, "A Transformer-Based Method of Multienergy Load Forecasting in Integrated Energy System," in IEEE Transactions on Smart Grid, vol. 13, no. 4, pp. 2703-2714, July 2022, doi: 10.1109/TSG.2022.3166600.
 
 ## Data Preparation
